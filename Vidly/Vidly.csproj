@@ -174,6 +174,7 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\MoviesController.cs" />
     <Compile Include="Dtos\CustomerDto.cs" />
+    <Compile Include="Dtos\MembershipTypeDto.cs" />
     <Compile Include="Dtos\MoviesDto.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -233,6 +234,10 @@
     <Compile Include="Migrations\201809251419172_form-validation.cs" />
     <Compile Include="Migrations\201809251419172_form-validation.Designer.cs">
       <DependentUpon>201809251419172_form-validation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201809291434454_requiredDataAnnotationDelete.cs" />
+    <Compile Include="Migrations\201809291434454_requiredDataAnnotationDelete.Designer.cs">
+      <DependentUpon>201809291434454_requiredDataAnnotationDelete.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
@@ -592,6 +597,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201809251419172_form-validation.resx">
       <DependentUpon>201809251419172_form-validation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201809291434454_requiredDataAnnotationDelete.resx">
+      <DependentUpon>201809291434454_requiredDataAnnotationDelete.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
